@@ -10,6 +10,7 @@
 
 import Foundation
 import AVFoundation
+import CoreImage
 
 /// A data structure representing a quadrilateral and its position. This class exists to bypass the fact that CIRectangleFeature is read-only.
 public struct Quadrilateral: Transformable {
